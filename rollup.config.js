@@ -11,7 +11,7 @@ export default {
     format: "cjs",
     sourcemap: true
   },
-  external: ["react"],
+  external: ["react", "react-dom"],
   plugins: [
     typescript({
       useTsconfigDeclarationDir: true
