@@ -12,6 +12,7 @@
     "ts:check": "yarn tcm:gen && tsc --noEmit --skipLibCheck",
     "tcm:gen": "tcm lib",
     "ck": "yarn lint && yarn test",
+    "clean": "rm -rf ./dist",
     "d": "rollup --config --watch",
     "t": "jest",
     "test": "yarn t",
