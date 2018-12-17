@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "pretty": true,
+    "declaration": true,
+    "declarationDir": "./dist/typings",
+    "baseUrl": "./",
+    "paths": {
+      "@lib": ["lib"],
+      "@lib/*": ["lib/*"],
+      "@test/*": ["test/*"]
+    }
+  },
+  "include": ["./lib/*", "./lib/**/*"]
+}
