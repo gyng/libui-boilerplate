@@ -8,14 +8,14 @@ See [`package.json`](./package.json) for all scripts
 
 ```
 yarn
-yarn d                      # runs storybook
-yarn test                   # runs jest
+yarn d                   # runs storybook
+yarn test                # runs jest
 yarn lint
 yarn lint:fix
 yarn build
 yarn build:storybook
-yarn tcm:gen                # generate TS types for CSS
-NODE_ENV=debug yarn build   # skips minification
+yarn tcm:gen             # generate TS types for CSS
+DEBUG=1 yarn build       # skips minification
 ```
 
 You can use [`yarn link`](https://yarnpkg.com/lang/en/docs/cli/link/) when developing against another application.
