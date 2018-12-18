@@ -1,5 +1,7 @@
 # libui-boilerplate
 
+[![Build Status](https://travis-ci.org/gyng/libui-boilerplate.svg?branch=master)](https://travis-ci.org/gyng/libui-boilerplate)
+
 Personal boilerplate for a React UI component library using TypeScript and PostCSS. Includes linting and testing.
 
 ## Usage
