@@ -5,6 +5,8 @@ export interface IButtonProps {
   value: string;
 }
 
-export const Button: React.SFC<IButtonProps> = (props: IButtonProps) => (
-  <button className={styles.test}>{props.value}</button>
-);
+export class Button extends React.Component<IButtonProps, {}> {
+  public render() {
+    return <button className={styles.test}>{this.props.value}</button>;
+  }
+}
