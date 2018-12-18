@@ -1,6 +1,5 @@
 import * as React from "react";
-
-import * as styles from "./button.css";
+import * as styles from "./button.scss";
 
 export interface IButtonProps {
   value: string;

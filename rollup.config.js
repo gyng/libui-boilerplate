@@ -2,7 +2,7 @@ import typescript from "rollup-plugin-typescript2";
 import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
 
-const PROD = process.env.NODE_ENV === "production";
+const DEBUG = !!process.env.DEBUG;
 
 export default {
   input: "lib/index.ts",
@@ -20,8 +20,8 @@ export default {
       extract: true,
       modules: true,
       namedExports: true,
-      plugins: []
+      use: [] // Don't use sass/scss loaders
     }),
-    ...(PROD ? [terser()] : [])
+    ...(!DEBUG ? [terser()] : [])
   ]
 };

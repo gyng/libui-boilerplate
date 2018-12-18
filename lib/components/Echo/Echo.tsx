@@ -1,6 +1,5 @@
 import * as React from "react";
-
-import * as styles from "./echo.css";
+import * as styles from "./echo.scss";
 
 export interface IEchoProps {
   value: string;
