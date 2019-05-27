@@ -41,7 +41,7 @@
     "@types/jest": "^23.3.10",
     "@types/react": "^16.7.17",
     "@types/storybook__react": "^4.0.0",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.6",
     "cssnano": "^4.1.7",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
